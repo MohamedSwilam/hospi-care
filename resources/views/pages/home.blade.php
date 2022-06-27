@@ -86,7 +86,7 @@
                         @foreach($testimonials as $testimonial)
                             <div class="tiny-slide">
                                 <div class="d-flex client-testi m-2">
-                                    <img src="{{$testimonial['photo']['url']}}" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <img src="https://hospicare.medica-lab.com{{$testimonial['photo']['url']}}" class="avatar avatar-small client-image rounded shadow" alt="">
                                     <div class="flex-1 content p-3 shadow rounded bg-white position-relative">
                                         <p class="text-muted mt-2">{{ app()->getLocale() == 'en' ? $testimonial['feedback_en'] : $testimonial['feedback_fr'] }}</p>
                                         <h6 class="text-primary">- {{$testimonial['client_name']}}</h6>
@@ -121,7 +121,7 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
                         <div class="card blog rounded border-0 shadow">
                             <div class="position-relative" style="text-align: center;">
-                                <img src="{{$category['photo']['url']}}" class="card-img-top rounded-top" alt="..." style="max-width: 100%;max-height: 250px;width: auto;height: auto;">
+                                <img src="https://hospicare.medica-lab.com{{$category['photo']['url']}}" class="card-img-top rounded-top" alt="..." style="max-width: 100%;max-height: 250px;width: auto;height: auto;">
                                 <div class="overlay rounded-top bg-dark"></div>
                             </div>
                             <div class="card-body content" style="text-align: center;width: 100%;">
@@ -159,7 +159,7 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
                         <div class="card blog rounded border-0 shadow">
                             <div class="position-relative" style="text-align: center;">
-                                <img src="{{$blog['photo']['url']}}" class="card-img-top rounded-top" alt="..." style="width: auto;height: auto;max-width: 100%;max-height: 250px;">
+                                <img src="https://hospicare.medica-lab.com{{$blog['photo']['url']}}" class="card-img-top rounded-top" alt="..." style="width: auto;height: auto;max-width: 100%;max-height: 250px;">
                                 <div class="overlay rounded-top bg-dark"></div>
                             </div>
                             <div class="card-body content">

@@ -43,7 +43,7 @@
                     <div class="tiny-single-item">
                         @foreach($product['product_photos'] as $photo)
                             <div class="tiny-slide" style="text-align: center;">
-                                <img src="{{$photo['url']}}" class="img-fluid rounded" alt="" style="max-width:400px;max-height: 500px;">
+                                <img src="https://hospicare.medica-lab.com{{$photo['url']}}" class="img-fluid rounded" alt="" style="max-width:400px;max-height: 500px;">
                             </div>
                         @endforeach
                     </div>
@@ -113,12 +113,12 @@
                                         <div class="shop-image position-relative overflow-hidden rounded shadow">
                                             @if(count($relatedProduct['product_photos']) > 0)
                                                 <a href="{{route('product-details', [$relatedProduct['category_id'], $relatedProduct['id']])}}">
-                                                    <img src="{{$relatedProduct['product_photos'][0]['url']}}" class="img-fluid" alt="" style="max-width: 100%;max-height: 200px;">
+                                                    <img src="https://hospicare.medica-lab.com{{$relatedProduct['product_photos'][0]['url']}}" class="img-fluid" alt="" style="max-width: 100%;max-height: 200px;">
                                                 </a>
                                             @endif
                                             @if(count($relatedProduct['product_photos']) > 1)
                                                 <a href="{{route('product-details', [$relatedProduct['category_id'], $relatedProduct['id']])}}" class="overlay-work">
-                                                    <img src="{{$relatedProduct['product_photos'][1]['url']}}" class="img-fluid" alt="" style="max-width: 100%;max-height: 200px;">
+                                                    <img src="https://hospicare.medica-lab.com{{$relatedProduct['product_photos'][1]['url']}}" class="img-fluid" alt="" style="max-width: 100%;max-height: 200px;">
                                                 </a>
                                             @endif
                                             <ul class="list-unstyled shop-icons">

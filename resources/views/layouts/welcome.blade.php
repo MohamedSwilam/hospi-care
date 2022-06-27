@@ -60,7 +60,7 @@
                         <div class="card rounded border-0" style="background-color: transparent;">
                             <div class="position-relative" style="text-align: center;">
                                 <a href="{{route('home')}}">
-                                    <img style="max-width: 350px;max-height: 235px;width: auto;height: auto;border-radius: 15px !important;" src="{{$site['photo']['url']}}" class="card-img-top rounded-top" alt="...">
+                                    <img style="max-width: 350px;max-height: 235px;width: auto;height: auto;border-radius: 15px !important;" src="https://hospicare.medica-lab.com{{$site['photo']['url']}}" class="card-img-top rounded-top" alt="...">
                                 </a>
                                 <div class="overlay rounded-top bg-dark"></div>
                             </div>

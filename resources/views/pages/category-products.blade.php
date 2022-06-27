@@ -78,12 +78,12 @@
                                     <div class="shop-image position-relative overflow-hidden rounded shadow" style="text-align: center;">
                                         @if(count($product['product_photos']) > 0)
                                             <a href="{{route('product-details', [$product['category_id'], $product['id']])}}">
-                                                <img src="{{$product['product_photos'][0]['url']}}" class="img-fluid" alt="" style="max-width: 100%;max-height: 200px;">
+                                                <img src="https://hospicare.medica-lab.com{{$product['product_photos'][0]['url']}}" class="img-fluid" alt="" style="max-width: 100%;max-height: 200px;">
                                             </a>
                                         @endif
                                         @if(count($product['product_photos']) > 1)
                                             <a href="{{route('product-details', [$product['category_id'], $product['id']])}}" class="overlay-work">
-                                                <img src="{{$product['product_photos'][1]['url']}}" class="img-fluid" alt="" style="max-width: 100%;max-height: 200px;">
+                                                <img src="https://hospicare.medica-lab.com{{$product['product_photos'][1]['url']}}" class="img-fluid" alt="" style="max-width: 100%;max-height: 200px;">
                                             </a>
                                         @endif
                                         <ul class="list-unstyled shop-icons">

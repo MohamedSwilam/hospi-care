@@ -52,7 +52,7 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
                         <div class="card blog rounded border-0 shadow">
                             <div class="position-relative" style="text-align: center;">
-                                <img src="{{$blog['photo']['url']}}" class="card-img-top rounded-top" alt="..." style="width: auto;height: auto;max-width: 100%;max-height: 250px;">
+                                <img src="https://hospicare.medica-lab.com{{$blog['photo']['url']}}" class="card-img-top rounded-top" alt="..." style="width: auto;height: auto;max-width: 100%;max-height: 250px;">
                                 <div class="overlay rounded-top bg-dark"></div>
                             </div>
                             <div class="card-body content">
