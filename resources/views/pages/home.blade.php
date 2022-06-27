@@ -9,14 +9,14 @@
             <div class="carousel-inner">
                 @for($i = 0; $i< count($site['sliders']); $i++)
                     <div class="carousel-item {{$i == 0 ? 'active' : ''}}" data-bs-interval="3000">
-                        <div class="bg-home d-flex align-items-center" style="background: url({{$site['sliders'][$i]['photo']['url']}}) center center;">
+                        <div class="bg-home d-flex align-items-center" style="background: url(https://hospicare.medica-lab.com{{$site['sliders'][$i]['photo']['url']}}) center center;">
                             <div class="bg-overlay"></div>
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-12 text-center">
                                         <div class="title-heading mt-4">
                                             <h1 class="heading mb-3 text-white title-dark animated fadeInUpBig animation-delay-3">{{$site['sliders'][$i]['main_title_en']}}</h1>
-                                            <p class="para-desc text-light para-dark mx-auto animated fadeInUpBig animation-delay-7">Your satisfaction is our ultimate goal, start working with Medica-lab and experience the guaranteed quality and service.</p>
+                                            <p class="para-desc text-light para-dark mx-auto animated fadeInUpBig animation-delay-7">Your satisfaction is our ultimate goal, start working with Hospi-care and experience the guaranteed quality and service.</p>
                                             <div class="mt-4 pt-2 animated fadeInUpBig animation-delay-11">
                                                 @if($site['sliders'][$i]['button_url'] != null && $site['sliders'][$i]['button_url'] != '' && $site['sliders'][$i]['button_url'] != 'null')
                                                     <a href="{{$site['sliders'][$i]['button_url']}}" class="btn btn-primary mt-2"><i class="uil uil-star"></i> Explore</a>

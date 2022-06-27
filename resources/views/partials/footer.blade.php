@@ -6,7 +6,7 @@
                 <a href="{{route('home')}}" class="logo-footer">
                     <img src="/images/logo/hospi-care-logo-white.png" height="150" alt="">
                 </a>
-                <p class="mt-4">Your satisfaction is our ultimate goal, start working with Medica-lab and experience the guaranteed quality and service.</p>
+                <p class="mt-4">Your satisfaction is our ultimate goal, start working with Hospi-care and experience the guaranteed quality and service.</p>
                 <ul class="list-unstyled social-icon social mb-0 mt-4">
                     <li class="list-inline-item"><a href="https://www.facebook.com/Medica.lab.group/" target="_blank" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
                     <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
